@@ -1,0 +1,18 @@
+:root {
+  /* colors */
+  --primary-color: #00d8ff;
+
+  --rating-color: #e95144;
+  --text-color: #232323;
+  --text-color-dark: #1c1b1b;
+  --light-color: #f6f6f6;
+  --stroke-color: #c1c1c1;
+  --stroke-color-light: #ececec;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  /* font */
+  --font-poppins: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}

@@ -1,0 +1,49 @@
+.navbar .logo img {
+  height: 5rem;
+}
+
+.navbar ul li {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 1.5rem;
+}
+.navbar ul li a {
+  color: var(--text-color);
+  position: relative;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  transition: 0.3s;
+}
+.navbar ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--text-color);
+  transition: 0.3s;
+}
+.navbar ul li a:hover {
+  color: var(--text-color);
+}
+.navbar ul li a:hover::after {
+  width: 100%;
+}
+
+.floating-num {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--white);
+  background: var(--primary-color);
+}
