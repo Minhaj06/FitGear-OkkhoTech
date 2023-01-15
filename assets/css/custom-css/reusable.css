@@ -3,6 +3,10 @@
   color: var(--primary-color) !important;
 }
 
+.primary-color-2 {
+  color: var(--primary-color-2) !important;
+}
+
 .text-color {
   color: var(--text-color) !important;
 }
@@ -12,11 +16,15 @@
 }
 
 .text-color-light {
-  color: var(--light-color) !important;
+  color: var(--text-color-light) !important;
 }
 
 .text-color-black {
   color: var(--black);
+}
+
+.hover-primary:hover {
+  color: var(--primary-color);
 }
 
 /* background colors */
@@ -56,8 +64,16 @@
   font-size: 1.4rem;
 }
 
+.fs-15 {
+  font-size: 1.5rem;
+}
+
 .fs-16 {
   font-size: 1.6rem;
+}
+
+.fs-18 {
+  font-size: 1.8rem;
 }
 
 .fs-30 {
@@ -86,17 +102,11 @@
 
 .sec-title {
   color: var(--text-color-dark);
-  font-weight: 500;
-  font-size: 3.5rem;
-  line-height: 2;
-  text-transform: capitalize;
-}
-
-.sec-desc {
-  color: var(--text-color);
-  font-size: 1.6rem;
-  line-height: 1.8;
-  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
 }
 
 /* Border */

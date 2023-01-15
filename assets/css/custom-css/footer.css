@@ -1,15 +1,24 @@
-.footer ul .nav-item .nav-link {
-  color: var(--white);
-  padding: 0;
-}
-.footer ul .nav-item .nav-link:hover {
-  text-decoration: underline;
+.footer .footer-top {
+  background-color: #fafafa;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-.footer .footer-col ul li:hover a {
-  color: var(--brand-color) !important;
+.footer .footer-col ul li a {
+  position: relative;
 }
 
-.footer .app-download-btn {
-  border: 1px solid var(--text-color-dark);
+.footer .footer-col ul li a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: var(--text-color);
+  transition: 0.3s linear;
+}
+
+.footer .footer-col ul li a:hover::after {
+  width: 100%;
 }
