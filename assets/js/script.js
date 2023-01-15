@@ -23,19 +23,36 @@ $(document).ready(function () {
 });
 
 // Home Banner Swiper Slide Starts Here
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".home-banner-swiper", {
   loop: true,
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,
   },
   pagination: {
-    el: ".swiper-pagination",
+    el: ".home-banner .swiper-pagination",
     clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".home-banner .swiper-button-next",
+    prevEl: ".home-banner .swiper-button-prev",
   },
 });
 // Home Banner Swiper Slide Ends Here
+
+// Single Product Page Swiper Slider
+var swiper = new Swiper(".single-product-slider .mySwiper", {
+  loop: false,
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".single-product-slider .mySwiper2", {
+  loop: false,
+  spaceBetween: 10,
+
+  thumbs: {
+    swiper: swiper,
+  },
+});
