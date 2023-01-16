@@ -9,3 +9,16 @@
   border-color: var(--primary-color);
   opacity: 0.8;
 }
+
+.btn.border-black {
+  border: 1px solid var(--text-color);
+  border-radius: 0 !important;
+  padding: 0.8rem 7rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.btn.border-black:hover {
+  opacity: 1 !important;
+  border-color: var(--primary-color);
+}

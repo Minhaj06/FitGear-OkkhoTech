@@ -7,6 +7,10 @@
   color: var(--primary-color-2) !important;
 }
 
+.rating-color {
+  color: var(--rating-color) !important;
+}
+
 .text-color {
   color: var(--text-color) !important;
 }
@@ -104,6 +108,10 @@
   font-weight: 500;
 }
 
+.fw-semibold {
+  font-weight: 600;
+}
+
 .sec-title {
   color: var(--text-color-dark);
   font-size: 2rem;
@@ -111,6 +119,14 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 3rem;
+}
+
+.sec-desc {
+  font-size: 1.3rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
 }
 
 /* Border */
@@ -171,6 +187,11 @@
 .rounded-bottom-5 {
   border-bottom-left-radius: 1rem !important;
   border-bottom-right-radius: 1rem !important;
+}
+
+/* Rating Star */
+.stars {
+  color: var(--rating-color);
 }
 
 /* Offer Hightlight */

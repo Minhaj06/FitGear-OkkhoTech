@@ -1,0 +1,8 @@
+/* Clients Review Section CSS Starts Here */
+.clients-feedback .client-review-box {
+  cursor: pointer;
+}
+.clients-feedback .client-review-box .reviewer-img img {
+  cursor: zoom-in;
+}
+/* Clients Review Section CSS Ends Here */
