@@ -516,6 +516,32 @@
                     </div>
 
                     <!-- Filter -->
+                    <div class="d-flex justify-content-between gap-5 product-filter">
+                        <div class="">
+                            <span class="fs-14">Items per page</span>
+                            <select class="border px-3 py-2 fs-14" name="itemsPerPage" id="itemsPerPage">
+                                <option value="12">12</option>
+                                <option value="16" selected>16</option>
+                                <option value="20">20</option>
+                                <option value="24">24</option>
+                                <option value="28">28</option>
+                                <option value="50">50</option>
+                            </select>
+                        </div>
+                        <div class="">
+                            <span class="fs-14">Sort by</span>
+                            <select class="border px-3 py-2 fs-14" name="sortBy" id="sortBy">
+                                <option value="">Featured</option>
+                                <option value="">Price, low to high</option>
+                                <option value="">Price, high to low</option>
+                                <option value="">Alphabetically, A-Z</option>
+                                <option value="">Alphabetically, Z-A</option>
+                                <option value="">Date, old to new</option>
+                                <option value="">Date, new to old</option>
+                                <option value="">Best Selling</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
                 <!-- View & Filter Toolbar End Here -->
 
@@ -1050,9 +1076,126 @@
                     </li>
 
                 </ol>
+
+                <div class="text-center mt-5">
+                    <button class="btn btn-primary border-black">SHOW MORE</button>
+                </div>
             </div>
         </section>
         <!-- Home Collection Section Ends Here -->
+
+
+        <!-- Recently Viewed Products Section Starts Here -->
+        <section class="recently-viewed-products">
+            <div class="container">
+
+                <hr class="mb-5">
+
+                <h1 class="sec-title text-start">
+                    RECENTLY VIEWED PRODUCTS
+                </h1>
+
+                <div class="swiper recently-viewed-product-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide product-card">
+                            <div class="product-card-top">
+                                <a class="d-block" href="#">
+                                    <img class="w-100" src="assets/images/product-img-1.jpg" alt=""
+                                        class="product-card-img">
+                                    <h5 class="discount-highlight">-26%</h5>
+                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
+                                        data-bs-target="#product-quick-view-modal">quick
+                                        view</button>
+                                </a>
+                            </div>
+
+                            <div class="product-details">
+                                <h4 class="product-title">
+                                    THE TERRY JOGGERS (UNISEX)
+                                </h4>
+                                <h5>
+                                    <span class="text-decoration-line-through">৳900.00</span> <span
+                                        class="primary-color-2">৳700.00</span>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide product-card">
+                            <div class="product-card-top">
+                                <a class="d-block" href="#">
+                                    <img class="w-100" src="assets/images/product-img-2.jpg" alt=""
+                                        class="product-card-img">
+                                    <h5 class="discount-highlight">-26%</h5>
+                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
+                                        data-bs-target="#product-quick-view-modal">quick
+                                        view</button>
+                                </a>
+                            </div>
+
+                            <div class="product-details">
+                                <h4 class="product-title">
+                                    THE TERRY JOGGERS (UNISEX)
+                                </h4>
+                                <h5>
+                                    <span class="text-decoration-line-through">৳900.00</span> <span
+                                        class="primary-color-2">৳700.00</span>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide product-card">
+                            <div class="product-card-top">
+                                <a class="d-block" href="#">
+                                    <img class="w-100" src="assets/images/product-img-3.webp" alt=""
+                                        class="product-card-img">
+                                    <h5 class="discount-highlight">-26%</h5>
+                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
+                                        data-bs-target="#product-quick-view-modal">quick
+                                        view</button>
+                                </a>
+                            </div>
+
+                            <div class="product-details">
+                                <h4 class="product-title">
+                                    THE TERRY JOGGERS (UNISEX)
+                                </h4>
+                                <h5>
+                                    <span class="text-decoration-line-through">৳900.00</span> <span
+                                        class="primary-color-2">৳700.00</span>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide product-card">
+                            <div class="product-card-top">
+                                <a class="d-block" href="#">
+                                    <img class="w-100" src="assets/images/product-img-4.webp" alt=""
+                                        class="product-card-img">
+                                    <h5 class="discount-highlight">-26%</h5>
+                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
+                                        data-bs-target="#product-quick-view-modal">quick
+                                        view</button>
+                                </a>
+                            </div>
+
+                            <div class="product-details">
+                                <h4 class="product-title">
+                                    THE TERRY JOGGERS (UNISEX)
+                                </h4>
+                                <h5>
+                                    <span class="text-decoration-line-through">৳900.00</span> <span
+                                        class="primary-color-2">৳700.00</span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Recently Viewed Products Section Ends Here -->
 
     </main>
     <!-- Main Contents End Here -->

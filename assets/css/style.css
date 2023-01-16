@@ -74,15 +74,6 @@
   margin: 2rem 0;
 }
 
-/* .list.list-view-filter li .product-card .product-card-top {
-  width: 22rem;
-  display: inline-block;
-}
-
-.list.list-view-filter li .product-card .product-details {
-  display: inline-block;
-} */
-
 .list.grid-view-filter {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -91,5 +82,36 @@
 
 .list.list.grid-view-filter .product-card .product-details .product-desc {
   display: none;
+}
+
+/* recently viewed product slider */
+
+.recently-viewed-product-swiper .swiper-button-next,
+.recently-viewed-product-swiper .swiper-button-prev {
+  width: 3.5rem;
+}
+
+.recently-viewed-product-swiper .swiper-button-next:after,
+.recently-viewed-product-swiper .swiper-button-prev:after {
+  color: var(--white);
+  font-size: 1.6rem;
+  background-color: var(--white);
+  color: var(--text-color);
+  font-weight: 700;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--text-color-dark);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.recently-viewed-product-swiper .swiper-button-next:hover::after,
+.recently-viewed-product-swiper .swiper-button-prev:hover::after {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--white);
 }
 /* Shop Page CSS End Here */

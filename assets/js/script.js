@@ -133,3 +133,28 @@ gridViewButton.onclick = function () {
   list.classList.remove("list-view-filter");
   list.classList.add("grid-view-filter");
 };
+
+// Recently Viewed Products Slider
+const popularProductSwiper = new Swiper(".recently-viewed-product-swiper", {
+  spaceBetween: 15,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    360: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1200: {
+      slidesPerView: 4,
+    },
+  },
+  navigation: {
+    nextEl: ".recently-viewed-product-swiper .swiper-button-next",
+    prevEl: ".recently-viewed-product-swiper .swiper-button-prev",
+  },
+});

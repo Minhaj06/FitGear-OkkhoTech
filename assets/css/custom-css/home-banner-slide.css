@@ -31,7 +31,7 @@
 }
 
 .home-banner .swiper-button-next:after,
-.swiper-button-prev:after {
+.home-banner .swiper-button-prev:after {
   color: var(--white);
 }
 
