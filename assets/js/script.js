@@ -112,3 +112,24 @@ function decreaseValue() {
   value--;
   document.getElementById("number").value = value;
 }
+
+// Grid & List View
+const listViewButton = document.querySelector(".list-view-button");
+const gridViewButton = document.querySelector(".grid-view-button");
+const list = document.getElementById("listView");
+
+listViewButton.onclick = function () {
+  gridViewButton.classList.remove("bg-white");
+  listViewButton.classList.add("bg-white");
+
+  list.classList.remove("grid-view-filter");
+  list.classList.add("list-view-filter");
+};
+
+gridViewButton.onclick = function () {
+  listViewButton.classList.remove("bg-white");
+  gridViewButton.classList.add("bg-white");
+
+  list.classList.remove("list-view-filter");
+  list.classList.add("grid-view-filter");
+};

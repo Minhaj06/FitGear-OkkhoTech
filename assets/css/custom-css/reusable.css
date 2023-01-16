@@ -40,6 +40,10 @@
   background-color: var(--light-color) !important;
 }
 
+.bg-light-2 {
+  background-color: var(--light-color-2) !important;
+}
+
 .bg-text {
   background-color: var(--text-color) !important;
 }
