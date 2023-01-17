@@ -39,7 +39,7 @@
   <!-- Top Header Ends Here -->
 
   <!-- Header Main Starts Here -->
-  <nav class="navbar navbar-expand-xl bg-white sticky-top">
+  <nav class="navbar navbar-expand-xl bg-white sticky-top shadow-sm">
     <div class="container-fluid">
 
       <div class="menu-icon d-xl-none" role="button">
@@ -2022,16 +2022,16 @@
 
                 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
                   <div class="swiper-wrapper">
-                    <div class="swiper-slide zoom" style="background-image: url(assets/images/product-img-1.jpg)">
+                    <div class="swiper-slide">
                       <img src="assets/images/product-img-1.jpg" />
                     </div>
-                    <div class="swiper-slide zoom" style="background-image: url(assets/images/product-img-2.jpg)">
+                    <div class="swiper-slide">
                       <img src="assets/images/product-img-2.jpg" />
                     </div>
-                    <div class="swiper-slide zoom" style="background-image: url(assets/images/product-img-3.webp)">
+                    <div class="swiper-slide">
                       <img src="assets/images/product-img-3.webp" />
                     </div>
-                    <div class="swiper-slide zoom" style="background-image: url(assets/images/product-img-4.webp)">
+                    <div class="swiper-slide">
                       <img src="assets/images/product-img-4.webp" />
                     </div>
                   </div>
@@ -2133,12 +2133,12 @@
                 <form class="mb-4">
                   <div class="input-group">
                     <span class="input-group-text px-4 value-button fs-14" role="button" id="decrease"
-                      onclick="decreaseValue()" value="Decrease Value">
+                      onclick="decreaseValue('number')" value="Decrease Value">
                       <i class="fa-solid fa-minus"></i>
                     </span>
-                    <input class="border py-3" type="number" id="number" value="0" />
+                    <input class="number border py-3" type="number" id="number" value="0" />
                     <span class="input-group-text px-4 value-button fs-14" role="button" id="increase"
-                      onclick="increaseValue()" value="Increase Value">
+                      onclick="increaseValue('number')" value="Increase Value">
                       <i class="fa-solid fa-plus"></i>
                     </span>
                   </div>

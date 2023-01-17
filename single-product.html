@@ -492,597 +492,639 @@
 
         <div class="container mt-5">
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                <ol class="breadcrumb">
+                <ol class="breadcrumb text-capitalize">
                     <li class="breadcrumb-item fs-14"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item fs-14 active" aria-current="page">Home Collection</li>
+                    <li class="breadcrumb-item fs-14"><a href="#">Home Collection</a></li>
+                    <li class="breadcrumb-item fs-14 active" aria-current="page">The Terry Joggers (UniSex)</li>
                 </ol>
             </nav>
         </div>
 
-
-        <!-- Home Collection Section Starts Here -->
-        <section class="home-collection">
+        <!-- Products Details Section Starts Here -->
+        <section class="single-product-details">
             <div class="container">
-                <h1 class="sec-title text-start">Home Collection</h1>
+                <div class="row g-5 product-slider-content mb-5">
+                    <div class="col-lg-6">
+                        <div class="single-product-slider-main">
+                            <!-- Swiper -->
 
-                <!-- View & Filter Toolbar Start Here -->
-                <div class="toolbar d-flex justify-content-between align-items-center bg-light p-3 rounded-3 mb-5">
-                    <!-- Grid & List View -->
-                    <div class="filter-buttons d-flex">
-                        <div class="list-view-button"><i class="fa fa-bars" aria-hidden="true"></i> List
-                            view</div>
-                        <div class="grid-view-button bg-white"><i class="fa fa-th-large" aria-hidden="true"></i> Grid
-                            view</div>
+                            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                                class="swiper mySwiper5">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide zoom"
+                                        style="background-image: url(assets/images/product-img-1.jpg)">
+                                        <img src="assets/images/product-img-1.jpg" />
+                                    </div>
+                                    <div class="swiper-slide zoom"
+                                        style="background-image: url(assets/images/product-img-2.jpg)">
+                                        <img src="assets/images/product-img-2.jpg" />
+                                    </div>
+                                    <div class="swiper-slide zoom"
+                                        style="background-image: url(assets/images/product-img-3.webp)">
+                                        <img src="assets/images/product-img-3.webp" />
+                                    </div>
+                                    <div class="swiper-slide zoom"
+                                        style="background-image: url(assets/images/product-img-4.webp)">
+                                        <img src="assets/images/product-img-4.webp" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div thumbsSlider="" class="swiper mySwiper4">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/product-img-1.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/product-img-2.jpg" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/product-img-3.webp" />
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/product-img-4.webp" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Swiper JS -->
+                        </div>
                     </div>
 
-                    <!-- Filter -->
-                    <div class="d-flex justify-content-between gap-5 product-filter">
-                        <div class="">
-                            <span class="fs-14">Items per page</span>
-                            <select class="border px-3 py-2 fs-14" name="itemsPerPage" id="itemsPerPage">
-                                <option value="12">12</option>
-                                <option value="16" selected>16</option>
-                                <option value="20">20</option>
-                                <option value="24">24</option>
-                                <option value="28">28</option>
-                                <option value="50">50</option>
-                            </select>
-                        </div>
-                        <div class="">
-                            <span class="fs-14">Sort by</span>
-                            <select class="border px-3 py-2 fs-14" name="sortBy" id="sortBy">
-                                <option value="">Featured</option>
-                                <option value="">Price, low to high</option>
-                                <option value="">Price, high to low</option>
-                                <option value="">Alphabetically, A-Z</option>
-                                <option value="">Alphabetically, Z-A</option>
-                                <option value="">Date, old to new</option>
-                                <option value="">Date, new to old</option>
-                                <option value="">Best Selling</option>
-                            </select>
+                    <div class="col-lg-6">
+                        <div class="single-product-details">
+                            <h1 class="product-title text-capitalize mb-3">
+                                WIND ACTIVE T-SHIRT (MEN)
+                            </h1>
+
+                            <h2 class="regular-price text-uppercase mb-5">
+                                <span class="text-decoration-line-through">৳900.00</span>
+
+                                <span class="primary-color-2">৳700.00</span>
+                            </h2>
+
+                            <p class="fs-4 fw-bold text-muted mb-2">
+                                Color
+                            </p>
+
+                            <div class="single-product-slider-main">
+                                <div thumbsSlider="" class="swiper mySwiper6" style="height: 10rem;">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide" role="button">
+                                            <img src="assets/images/product-img-1.jpg" />
+                                        </div>
+                                        <div class="swiper-slide" role="button">
+                                            <img src="assets/images/product-img-2.jpg" />
+                                        </div>
+                                        <div class="swiper-slide" role="button">
+                                            <img src="assets/images/product-img-3.webp" />
+                                        </div>
+                                        <div class="swiper-slide" role="button">
+                                            <img src="assets/images/product-img-4.webp" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="fs-4 fw-bold text-muted mb-2">
+                                Size
+                            </p>
+
+                            <form class="size-radios-main mb-5">
+                                <input type="radio" id="size-s" name="size" value="S (44.5 x 66cm)">
+                                <label for="size-s">S (44.5 x 66cm)</label>
+
+                                <input type="radio" id="size-m" name="size" value="M (47 x 68.5cm)" checked>
+                                <label for="size-m">M (47 x 68.5cm)</label>
+
+                                <input type="radio" id="size-l" name="size" value="L (49 x 71cm)">
+                                <label for="size-l">L (49 x 71cm)</label>
+
+                                <input type="radio" id="size-xl" name="size" value="XL (52 x 73.5cm)">
+                                <label for="size-xl">XL (52 x 73.5cm)</label>
+
+                                <input type="radio" id="size-xxl" name="size" value="XXL (54.5 x 76cm)">
+                                <label for="size-xxl">XXL (54.5 x 76cm)</label>
+                            </form>
+
+                            <p class="fs-4 fw-bold text-muted mb-2">
+                                Quantity
+                            </p>
+
+                            <form class="mb-5">
+                                <div class="input-group">
+                                    <span class="input-group-text px-4 value-button fs-14" role="button" id="decrease"
+                                        onclick="decreaseValue()" value="Decrease Value">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </span>
+                                    <input class="number border py-3" type="numberMain" id="numberMain" value="0" />
+                                    <span class="input-group-text px-4 value-button fs-14" role="button" id="increase"
+                                        onclick="increaseValue('numberMain')" value="Increase Value">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </span>
+                                </div>
+
+                                <button class="btn btn-primary px-5 py-3 fs-4 fw-medium mt-3">ADD TO CART</button>
+                            </form>
+
+                            <div class="progress border" style="height: 10px;">
+                                <div class="progress-bar rounded-4" role="progressbar"
+                                    style="width: 25%; background: linear-gradient(to right, #6167ff, #66fff6)"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="fs-14 p-3 rounded-4 mb-4">
+                                Navy / XS: high in demand! only <span class="fw-semibold">18</span> left
+                            </p>
+
+
+                            <img class="img-fluid mb-5" src="assets/images/product-quality-explain.png" alt=""
+                                style="max-height: 10rem">
+
+                            <h4 class="fw-semibold mb-3">
+                                Buy more save more
+                            </h4>
+
+                            <table class="table table-bordered fs-13">
+                                <thead>
+                                    <tr>
+                                        <th class="p-4">QUANTITY</th>
+                                        <th class="p-4">YOUR PRICE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="p-4">2+</td>
+                                        <td class="p-4 fs-16 fw-medium">৳ 1400.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                            <p class="fs-14 p-3 rounded-4">
+                                <i class="fa-regular fa-eye me-2"></i> 200 customers are viewing this product
+                            </p>
+
+                            <hr>
+
                         </div>
                     </div>
                 </div>
-                <!-- View & Filter Toolbar End Here -->
 
-                <ol id="listView" class="list grid-view-filter">
 
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-1.jpg" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
+                <!-- Product Details Tabs Start Here -->
+                <div class="product-details-tabs row my-5">
+                    <div class="col-12">
+                        <!-- Nav Pills -->
+                        <ul class="nav justify-content-center gap-5 nav-pills fovourite text-uppercase border-bottom"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-color-dark fw-bold active" data-bs-toggle="tab"
+                                    href="#product-details-tab" aria-selected="true" role="tab">DESCRIPTION</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-color-dark fw-bold" data-bs-toggle="tab"
+                                    href="#return-policy-tab" aria-selected="false" role="tab"
+                                    tabindex="-1">FEATURES</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-color-dark fw-bold" data-bs-toggle="tab" href="#moneyback-tab"
+                                    aria-selected="false" role="tab" tabindex="-1">SIZE GUIDE</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-color-dark fw-bold" data-bs-toggle="tab" href="#faq-tab"
+                                    aria-selected="false" role="tab" tabindex="-1">CUSTOMER REVIEWS</a>
+                            </li>
+                        </ul>
 
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
+                        <!-- Tab Panes -->
+                        <div class="tab-content mt-2">
+                            <div id="product-details-tab" class="tab-pane active show" role="tabpanel">
+                                <br />
+                                <h2 class="product-details-tab-title fw-semibold mb-4">Terry Joggers</h2>
 
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
+                                <p class="fs-14 fw-semibold mb-5">A piece that suits all occasions.</p>
+
+                                <p class="fs-14 fw-semibold text-success mb-3">Ready stock</p>
+                                <p class="fs-14 mb-3">
+                                    Delivery: 2 weeks from now
+                                </p>
+                                <p class="fs-14 fw-semibold text-danger mb-3">
+                                    New Launch Mix & Match:
+                                </p>
+                                <p class="fs-14 fw-semibold mb-3">
+                                    Terry Joggers + <a href="#" class="primary-color">Ankle Pants</a> Tier Price Promo
+                                </p>
+                                <p class="fs-14 mb-3">
+                                    Buy 1pc at RM59
+                                </p>
+                                <p class="fs-14 mb-3">
+                                    Buy 2pcs at RM49/each (Any Color/ Sizes)
+                                </p>
+                                <p class="fs-14 fw-semibold mb-3">
+                                    Have a question? Contact our live chat on <a href="#"
+                                        class="primary-color">Messenger</a>
                                 </p>
 
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
+                                <p class="fs-14 fw-semibold text-muted py-4">Features</p>
+                                <ul style="list-style: disc inside none; line-height: 1.5" class="tex-color fs-14 ps-4">
+                                    <li class="mb-3">
+                                        Unisex
+                                    </li>
+                                    <li class="mb-3">
+                                        Slim fit
+                                    </li>
+                                    <li class="mb-3">
+                                        Adjustable elastic waist
+                                    </li>
+                                    <li class="mb-3">
+                                        Hidden drawstring
+                                    </li>
+                                    <li class="mb-3">
+                                        Deep side pockets
+                                    </li>
+                                    <li class="mb-3">
+                                        Easy care
+                                    </li>
+                                </ul>
+
+                                <p class="fs-14 fw-semibold text-muted py-4">Specifications:</p>
+                                <ul style="list-style: disc inside none; line-height: 1.5"
+                                    class="tex-color fs-14 ps-4 mb-5">
+                                    <li class="mb-3">
+                                        Materials: Cotton Terry, Polyester
+                                    </li>
+                                </ul>
+
+                                <img class="img-fluid" src="assets/images/product-details-offer-img.webp" alt="">
+                            </div>
+
+                            <div id="return-policy-tab" class="tab-pane" role="tabpanel">
+                                <br />
+
+                                <div class="row g-4">
+                                    <div class="col-6">
+                                        <div class="">
+                                            <img src="assets/images/product-feature-img-1.webp" alt=""
+                                                class="img-fluid d-block">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="">
+                                            <img src="assets/images/product-feature-img-2.jpg" alt=""
+                                                class="img-fluid d-block">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="moneyback-tab" class="tab-pane" role="tabpanel">
+                                <br>
+
+                                <img class="img-fluid" src="assets/images/product-size-guide.webp" alt="">
+                            </div>
+
+                            <div id="faq-tab" class="tab-pane" role="tabpanel">
+                                <br />
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center gap-3 mb-5">
+                                        <div class="stars fs-3">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <p class="fw-medium">12,16 Reviews</p>
+                                    </div>
+
+                                    <button class="btn border fs-4 fw-semibold px-4 py-2">Write a review</button>
+                                </div>
+
+                                <div class="row g-4">
+
+                                    <div class="col-lg-3">
+                                        <div class="client-review-box bg-light p-4 h-100 rounded-3">
+                                            <h3 class="fw-bold text-capitalize">
+                                                kate F.
+                                                <i class="fa-solid fa-circle-check fs-14"></i>
+                                            </h3>
+
+                                            <div class="stars fs-5 my-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <p class="fw-medium fs-4 mb-4">
+                                                Fitgear never fail to impress me with their great quality. Wish to have
+                                                more colour selection and design coming up soon.
+                                            </p>
+
+                                            <h5 class="text-muted">Item type:</h5>
+                                            <p class="fs-14 fw-medium">Army Green / M</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="client-review-box bg-light p-4 h-100 rounded-3">
+                                            <h3 class="fw-bold text-capitalize">
+                                                kate F.
+                                                <i class="fa-solid fa-circle-check fs-14"></i>
+                                            </h3>
+
+                                            <div class="stars fs-5 my-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <p class="fw-medium fs-4 mb-4">
+                                                Fitgear never fail to impress me with their great quality. Wish to have
+                                                more colour selection and design coming up soon.
+                                            </p>
+
+                                            <h5 class="text-muted">Item type:</h5>
+                                            <p class="fs-14 fw-medium">Army Green / M</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="client-review-box bg-light p-4 h-100 rounded-3">
+                                            <h3 class="fw-bold text-capitalize">
+                                                kate F.
+                                                <i class="fa-solid fa-circle-check fs-14"></i>
+                                            </h3>
+
+                                            <div class="stars fs-5 my-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <p class="fw-medium fs-4 mb-4">
+                                                Fitgear never fail to impress me with their great quality. Wish to have
+                                                more colour selection and design coming up soon.
+                                            </p>
+
+                                            <h5 class="text-muted">Item type:</h5>
+                                            <p class="fs-14 fw-medium">Army Green / M</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="client-review-box bg-light p-4 h-100 rounded-3">
+                                            <h3 class="fw-bold text-capitalize">
+                                                kate F.
+                                                <i class="fa-solid fa-circle-check fs-14"></i>
+                                            </h3>
+
+                                            <div class="stars fs-5 my-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <p class="fw-medium fs-4 mb-4">
+                                                Fitgear never fail to impress me with their great quality. Wish to have
+                                                more colour selection and design coming up soon.
+                                            </p>
+
+                                            <h5 class="text-muted">Item type:</h5>
+                                            <p class="fs-14 fw-medium">Army Green / M</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="client-review-box bg-light p-4 h-100 rounded-3">
+                                            <h3 class="fw-bold text-capitalize">
+                                                kate F.
+                                                <i class="fa-solid fa-circle-check fs-14"></i>
+                                            </h3>
+
+                                            <div class="stars fs-5 my-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <p class="fw-medium fs-4 mb-4">
+                                                Fitgear never fail to impress me with their great quality. Wish to have
+                                                more colour selection and design coming up soon.
+                                            </p>
+
+                                            <h5 class="text-muted">Item type:</h5>
+                                            <p class="fs-14 fw-medium">Army Green / M</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="client-review-box bg-light p-4 h-100 rounded-3">
+                                            <h3 class="fw-bold text-capitalize">
+                                                kate F.
+                                                <i class="fa-solid fa-circle-check fs-14"></i>
+                                            </h3>
+
+                                            <div class="stars fs-5 my-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <p class="fw-medium fs-4 mb-4">
+                                                Fitgear never fail to impress me with their great quality. Wish to have
+                                                more colour selection and design coming up soon.
+                                            </p>
+
+                                            <h5 class="text-muted">Item type:</h5>
+                                            <p class="fs-14 fw-medium">Army Green / M</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="client-review-box bg-light p-4 h-100 rounded-3">
+                                            <h3 class="fw-bold text-capitalize">
+                                                kate F.
+                                                <i class="fa-solid fa-circle-check fs-14"></i>
+                                            </h3>
+
+                                            <div class="stars fs-5 my-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <p class="fw-medium fs-4 mb-4">
+                                                Fitgear never fail to impress me with their great quality. Wish to have
+                                                more colour selection and design coming up soon.
+                                            </p>
+
+                                            <h5 class="text-muted">Item type:</h5>
+                                            <p class="fs-14 fw-medium">Army Green / M</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3">
+                                        <div class="client-review-box bg-light p-4 h-100 rounded-3">
+                                            <h3 class="fw-bold text-capitalize">
+                                                kate F.
+                                                <i class="fa-solid fa-circle-check fs-14"></i>
+                                            </h3>
+
+                                            <div class="stars fs-5 my-3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+
+                                            <p class="fw-medium fs-4 mb-4">
+                                                Fitgear never fail to impress me with their great quality. Wish to have
+                                                more colour selection and design coming up soon.
+                                            </p>
+
+                                            <h5 class="text-muted">Item type:</h5>
+                                            <p class="fs-14 fw-medium">Army Green / M</p>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-2.jpg" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-3.webp" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-4.webp" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-1.jpg" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-2.jpg" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-3.webp" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-4.webp" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-1.jpg" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-2.jpg" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-3.webp" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-4.webp" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-1.jpg" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-2.jpg" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-3.webp" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="product-card">
-                            <div class="product-card-top">
-                                <a class="d-block" href="#">
-                                    <img class="w-100" src="assets/images/product-img-4.webp" alt="">
-                                    <h5 class="discount-highlight">-26%</h5>
-                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
-                                        data-bs-target="#product-quick-view-modal">quick
-                                        view</button>
-                                </a>
-                            </div>
-
-                            <div class="product-details">
-                                <h4 class="product-title">
-                                    THE TERRY JOGGERS (UNISEX)
-                                </h4>
-
-                                <p class="product-desc">
-                                    Terry Joggers A piece that suits all occasions. Ready stockDelivery: 2 weeks from
-                                    now New Launch Mix & Match:Terry
-                                    Joggers + Ankle Pants Tier Price PromoBuy 1pc at RM59Buy 2pcs at RM49/each (Any
-                                    Color/ Sizes)Have a question? Contact
-                                    our live chat on Messenger. Features:...
-                                </p>
-
-                                <h5>
-                                    <span class="text-decoration-line-through">৳900.00</span> <span
-                                        class="primary-color-2">৳700.00</span>
-                                </h5>
-                            </div>
-                        </div>
-                    </li>
-
-                </ol>
-
-                <div class="text-center mt-5">
-                    <button class="btn btn-primary border-black">SHOW MORE</button>
+                    </div>
                 </div>
+                <!-- Product Details TAbs End Here -->
+
             </div>
         </section>
-        <!-- Home Collection Section Ends Here -->
+        <!-- Products Details Section Ends Here -->
+
+
+        <!-- Related Products Section Starts Here -->
+        <section class="related-products">
+            <div class="container">
+
+                <hr class="mb-5">
+
+                <h1 class="sec-title text-start">
+                    RELATED PRODUCTS
+                </h1>
+
+                <div class="swiper recently-viewed-product-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide product-card">
+                            <div class="product-card-top">
+                                <a class="d-block" href="#">
+                                    <img class="w-100" src="assets/images/product-img-1.jpg" alt=""
+                                        class="product-card-img">
+                                    <h5 class="discount-highlight">-26%</h5>
+                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
+                                        data-bs-target="#product-quick-view-modal">quick
+                                        view</button>
+                                </a>
+                            </div>
+
+                            <div class="product-details">
+                                <h4 class="product-title">
+                                    THE TERRY JOGGERS (UNISEX)
+                                </h4>
+                                <h5>
+                                    <span class="text-decoration-line-through">৳900.00</span> <span
+                                        class="primary-color-2">৳700.00</span>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide product-card">
+                            <div class="product-card-top">
+                                <a class="d-block" href="#">
+                                    <img class="w-100" src="assets/images/product-img-2.jpg" alt=""
+                                        class="product-card-img">
+                                    <h5 class="discount-highlight">-26%</h5>
+                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
+                                        data-bs-target="#product-quick-view-modal">quick
+                                        view</button>
+                                </a>
+                            </div>
+
+                            <div class="product-details">
+                                <h4 class="product-title">
+                                    THE TERRY JOGGERS (UNISEX)
+                                </h4>
+                                <h5>
+                                    <span class="text-decoration-line-through">৳900.00</span> <span
+                                        class="primary-color-2">৳700.00</span>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide product-card">
+                            <div class="product-card-top">
+                                <a class="d-block" href="#">
+                                    <img class="w-100" src="assets/images/product-img-3.webp" alt=""
+                                        class="product-card-img">
+                                    <h5 class="discount-highlight">-26%</h5>
+                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
+                                        data-bs-target="#product-quick-view-modal">quick
+                                        view</button>
+                                </a>
+                            </div>
+
+                            <div class="product-details">
+                                <h4 class="product-title">
+                                    THE TERRY JOGGERS (UNISEX)
+                                </h4>
+                                <h5>
+                                    <span class="text-decoration-line-through">৳900.00</span> <span
+                                        class="primary-color-2">৳700.00</span>
+                                </h5>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide product-card">
+                            <div class="product-card-top">
+                                <a class="d-block" href="#">
+                                    <img class="w-100" src="assets/images/product-img-4.webp" alt=""
+                                        class="product-card-img">
+                                    <h5 class="discount-highlight">-26%</h5>
+                                    <button class="btn quick-view-btn" data-bs-toggle="modal"
+                                        data-bs-target="#product-quick-view-modal">quick
+                                        view</button>
+                                </a>
+                            </div>
+
+                            <div class="product-details">
+                                <h4 class="product-title">
+                                    THE TERRY JOGGERS (UNISEX)
+                                </h4>
+                                <h5>
+                                    <span class="text-decoration-line-through">৳900.00</span> <span
+                                        class="primary-color-2">৳700.00</span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Related Products Section Ends Here -->
 
 
         <!-- Recently Viewed Products Section Starts Here -->
@@ -1324,20 +1366,16 @@
                                 <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
                                     class="swiper mySwiper2">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide zoom"
-                                            style="background-image: url(assets/images/product-img-1.jpg)">
+                                        <div class="swiper-slide">
                                             <img src="assets/images/product-img-1.jpg" />
                                         </div>
-                                        <div class="swiper-slide zoom"
-                                            style="background-image: url(assets/images/product-img-2.jpg)">
+                                        <div class="swiper-slide">
                                             <img src="assets/images/product-img-2.jpg" />
                                         </div>
-                                        <div class="swiper-slide zoom"
-                                            style="background-image: url(assets/images/product-img-3.webp)">
+                                        <div class="swiper-slide">
                                             <img src="assets/images/product-img-3.webp" />
                                         </div>
-                                        <div class="swiper-slide zoom"
-                                            style="background-image: url(assets/images/product-img-4.webp)">
+                                        <div class="swiper-slide">
                                             <img src="assets/images/product-img-4.webp" />
                                         </div>
                                     </div>
@@ -1439,12 +1477,12 @@
                                 <form class="mb-4">
                                     <div class="input-group">
                                         <span class="input-group-text px-4 value-button fs-14" role="button"
-                                            id="decrease" onclick="decreaseValue()" value="Decrease Value">
+                                            id="decrease" onclick="decreaseValue('number')" value="Decrease Value">
                                             <i class="fa-solid fa-minus"></i>
                                         </span>
-                                        <input class="border py-3" type="number" id="number" value="0" />
+                                        <input class="number border py-3" type="number" id="number" value="0" />
                                         <span class="input-group-text px-4 value-button fs-14" role="button"
-                                            id="increase" onclick="increaseValue()" value="Increase Value">
+                                            id="increase" onclick="increaseValue('number')" value="Increase Value">
                                             <i class="fa-solid fa-plus"></i>
                                         </span>
                                     </div>

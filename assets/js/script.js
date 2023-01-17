@@ -23,7 +23,7 @@ $(document).ready(function () {
 });
 
 // Home Banner Swiper Slide Starts Here
-var swiper = new Swiper(".home-banner-swiper", {
+const swiper = new Swiper(".home-banner-swiper", {
   loop: true,
   autoplay: {
     delay: 5000,
@@ -40,22 +40,22 @@ var swiper = new Swiper(".home-banner-swiper", {
 });
 // Home Banner Swiper Slide Ends Here
 
-// Single Product Page Swiper Slider
-var swiper = new Swiper(".single-product-slider .mySwiper", {
+// Single Product Quick View Slider
+const swiper1 = new Swiper(".single-product-slider .mySwiper", {
   loop: false,
   spaceBetween: 10,
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
 });
-var swiper2 = new Swiper(".single-product-slider .mySwiper2", {
+const swiper2 = new Swiper(".single-product-slider .mySwiper2", {
   loop: false,
   spaceBetween: 10,
   thumbs: {
-    swiper: swiper,
+    swiper: swiper1,
   },
 });
-var swiper3 = new Swiper(".single-product-slider .mySwiper3", {
+const swiper3 = new Swiper(".single-product-slider .mySwiper3", {
   loop: false,
   spaceBetween: 10,
   slidesPerView: 4,
@@ -63,7 +63,7 @@ var swiper3 = new Swiper(".single-product-slider .mySwiper3", {
   watchSlidesProgress: true,
 });
 
-var swiper4 = new Swiper(".single-product-slider .mySwiper2", {
+const swiper4 = new Swiper(".single-product-slider .mySwiper2", {
   loop: false,
   spaceBetween: 10,
   thumbs: {
@@ -71,68 +71,36 @@ var swiper4 = new Swiper(".single-product-slider .mySwiper2", {
   },
 });
 
-// Image Zoom
-$(document).ready(function () {
-  $(".zoom").mousemove(function (e) {
-    zoom(e);
-  });
-
-  function zoom(e) {
-    var x, y;
-    var zoomer = e.currentTarget;
-    if (e.offsetX) {
-      offsetX = e.offsetX;
-    } else {
-      offsetX = e.touches[0].pageX;
-    }
-
-    if (e.offsetY) {
-      offsetY = e.offsetY;
-    } else {
-      offsetX = e.touches[0].pageX;
-    }
-    x = (offsetX / zoomer.offsetWidth) * 100;
-    y = (offsetY / zoomer.offsetHeight) * 100;
-    zoomer.style.backgroundPosition = x + "% " + y + "%";
-  }
+// Single Product Details Slider
+const swiper5 = new Swiper(".single-product-slider-main .mySwiper4", {
+  loop: false,
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+const swiper6 = new Swiper(".single-product-slider-main .mySwiper5", {
+  loop: false,
+  spaceBetween: 10,
+  thumbs: {
+    swiper: swiper5,
+  },
+});
+const swiper7 = new Swiper(".single-product-slider-main .mySwiper6", {
+  loop: false,
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
 });
 
-// Number Increase Decrese
-function increaseValue() {
-  var value = parseInt(document.getElementById("number").value, 10);
-  value = isNaN(value) ? 0 : value;
-  value++;
-  document.getElementById("number").value = value;
-}
-
-function decreaseValue() {
-  var value = parseInt(document.getElementById("number").value, 10);
-  value = isNaN(value) ? 0 : value;
-  value < 1 ? (value = 1) : "";
-  value--;
-  document.getElementById("number").value = value;
-}
-
-// Grid & List View
-const listViewButton = document.querySelector(".list-view-button");
-const gridViewButton = document.querySelector(".grid-view-button");
-const list = document.getElementById("listView");
-
-listViewButton.onclick = function () {
-  gridViewButton.classList.remove("bg-white");
-  listViewButton.classList.add("bg-white");
-
-  list.classList.remove("grid-view-filter");
-  list.classList.add("list-view-filter");
-};
-
-gridViewButton.onclick = function () {
-  listViewButton.classList.remove("bg-white");
-  gridViewButton.classList.add("bg-white");
-
-  list.classList.remove("list-view-filter");
-  list.classList.add("grid-view-filter");
-};
+const swiper8 = new Swiper(".single-product-slider-main .mySwiper5", {
+  loop: false,
+  spaceBetween: 10,
+  thumbs: {
+    swiper: swiper7,
+  },
+});
 
 // Recently Viewed Products Slider
 const popularProductSwiper = new Swiper(".recently-viewed-product-swiper", {
@@ -158,3 +126,40 @@ const popularProductSwiper = new Swiper(".recently-viewed-product-swiper", {
     prevEl: ".recently-viewed-product-swiper .swiper-button-prev",
   },
 });
+
+// Number Increase Decrese
+function increaseValue(selector) {
+  var value = parseInt(document.getElementById(selector).value, 10);
+  value = isNaN(value) ? 0 : value;
+  value++;
+  document.getElementById(selector).value = value;
+}
+
+function decreaseValue(selector) {
+  var value = parseInt(document.getElementById(selector).value, 10);
+  value = isNaN(value) ? 0 : value;
+  value < 1 ? (value = 1) : "";
+  value--;
+  document.getElementById(selector).value = value;
+}
+
+// Grid & List View
+const listViewButton = document.querySelector(".list-view-button");
+const gridViewButton = document.querySelector(".grid-view-button");
+const list = document.getElementById("listView");
+
+listViewButton.onclick = function () {
+  gridViewButton.classList.remove("bg-white");
+  listViewButton.classList.add("bg-white");
+
+  list.classList.remove("grid-view-filter");
+  list.classList.add("list-view-filter");
+};
+
+gridViewButton.onclick = function () {
+  listViewButton.classList.remove("bg-white");
+  gridViewButton.classList.add("bg-white");
+
+  list.classList.remove("list-view-filter");
+  list.classList.add("grid-view-filter");
+};

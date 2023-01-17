@@ -115,3 +115,15 @@
   color: var(--white);
 }
 /* Shop Page CSS End Here */
+
+/* Single Product Details Page CSS Start Here */
+.product-details-tabs .nav-pills .nav-link.active,
+.product-details-tabs .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #0d6efd;
+  background-color: transparent;
+  border-bottom: 2px solid;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Single Product Details Page CSS End Here */
