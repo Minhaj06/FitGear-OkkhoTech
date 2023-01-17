@@ -340,3 +340,9 @@ li.page-item a {
   color: var(--brand-color);
   background-color: var(--brand-color-light);
 }
+
+/* Focus Border */
+.focus-shadow .form-control:focus {
+  box-shadow: 0 0 0 2px var(--text-color-dark);
+  border-color: var(--white);
+}
