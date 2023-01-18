@@ -111,7 +111,7 @@ const popularProductSwiper = new Swiper(".recently-viewed-product-swiper", {
     disableOnInteraction: false,
   },
   breakpoints: {
-    360: {
+    330: {
       slidesPerView: 2,
     },
     768: {

@@ -33,6 +33,7 @@
 .home-banner .swiper-button-next:after,
 .home-banner .swiper-button-prev:after {
   color: var(--white);
+  font-size: 3rem;
 }
 
 .home-banner .swiper-pagination-bullet {

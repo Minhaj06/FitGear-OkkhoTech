@@ -3,3 +3,34 @@
     height: 2.6rem;
   }
 }
+
+@media (max-width: 992px) {
+  .list.grid-view-filter {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 578.98px) {
+  .cart-sider {
+    width: 100%;
+    right: -100%;
+  }
+
+  .youtube-iframe-video iframe.youtube-player {
+    height: 50vh !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .list.grid-view-filter {
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 85%;
+    left: -85%;
+  }
+}

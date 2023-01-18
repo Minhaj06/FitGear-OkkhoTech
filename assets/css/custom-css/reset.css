@@ -23,9 +23,16 @@ section {
   padding: 5rem 0;
 }
 
+@media (min-width: 1500px) {
+  .container-fluid {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+}
+
 .container-fluid {
-  padding-right: 6rem;
-  padding-left: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 p {
