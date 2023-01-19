@@ -22,6 +22,25 @@ $(document).ready(function () {
   });
 });
 
+// Password Show Hide
+const password = document.getElementById("password");
+const cPassword = document.getElementById("c-password");
+
+const passIcon = document.querySelector(".pass-icon");
+const cPassIcon = document.querySelector(".c-pass-icon");
+
+function showHidePass(selector, icon) {
+  if (selector.type === "password") {
+    selector.setAttribute("type", "text");
+    icon.classList.remove("fa-eye");
+    icon.classList.add("fa-eye-slash");
+  } else {
+    selector.setAttribute("type", "password");
+    icon.classList.remove("fa-eye-slash");
+    icon.classList.add("fa-eye");
+  }
+}
+
 // Home Banner Swiper Slide Starts Here
 const swiper = new Swiper(".home-banner-swiper", {
   loop: true,

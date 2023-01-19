@@ -3,6 +3,10 @@
   color: var(--primary-color) !important;
 }
 
+.primary-color-light {
+  color: var(--primary-color-light);
+}
+
 .primary-color-2 {
   color: var(--primary-color-2) !important;
 }
@@ -34,6 +38,13 @@
 /* background colors */
 .bg-primary {
   background-color: var(--primary-color) !important;
+}
+.bg-primary-light {
+  background-color: var(--primary-color-light);
+}
+
+.bg-primary-2 {
+  background-color: var(--primary-color-2);
 }
 
 .bg-light {
